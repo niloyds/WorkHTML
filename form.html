@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Your Name
+            <input type="text" id="name" placeholder="Enter Your Name">
+        </label>
+        <label for="email">Your Email
+            <input type="email" id="email" placeholder="Enter your Email Address">
+        </label>
+        <label for="phone">Your Phone Number
+            <input type="number" id="phone" placeholder="Enter your phone number">
+        </label>
+
+        <!-- FieldSet -->
+        <fieldset>
+            <legend>Pick One Pita</legend>
+            <label for="chitoy">
+                <input type="radio" name="pita" id="chitoy">
+                Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pita" id="vapa">
+                Vapa
+            </label>
+            <label for="coconut">
+                <input type="radio" name="pita" id="coconut">
+                Coconut
+            </label>
+        </fieldset>
+
+        <!-- FieldSet -->
+        <fieldset>
+            <legend>Select one or more Vorta</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="Vorta" id="sorisa">
+                Sorisa
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="Vorta" id="shutki">
+                Shutki
+            </label>
+            <label for="dall">
+                <input type="checkbox" name="Vorta" id="dall">
+                Dall
+            </label>
+        </fieldset>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
